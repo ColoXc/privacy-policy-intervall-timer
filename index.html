@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datenschutzerklärung - Intervall Timer</title>
+    <title>Privacy Policy / Datenschutzerklärung - Intervall Timer</title>
     <style>
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
@@ -19,12 +19,64 @@
         p { margin-bottom: 1em; color: #222; }
         ul { margin-top: 0.5em; margin-bottom: 1em; padding-left: 20px; }
         li { margin-bottom: 0.5em; color: #222; }
+        .lang-nav { margin-bottom: 1.5em; font-size: 0.95em; }
+        .lang-nav a { color: #0a58ca; }
+        hr { border: none; border-top: 1px solid #ccc; margin: 3em 0; }
         .address-box { margin-bottom: 1.5em; line-height: 1.5; }
     </style>
 </head>
 <body>
 
-    <div class="date">Stand: 07.11.2026</div>
+    <nav class="lang-nav"><a href="#en">English</a> | <a href="#de">Deutsch</a></nav>
+
+    <section id="en" lang="en">
+    <div class="date">Last updated: 19.11.2026</div>
+    <h1>Privacy Policy</h1>
+
+    <p>Protecting your personal data is important to us. Below we explain how your data is processed when you use our iOS app "Intervall Timer" (hereinafter "App").</p>
+
+    <h2>1. Controller</h2>
+    <p>The controller responsible for data processing within the meaning of the General Data Protection Regulation (GDPR) is:</p>
+    <div class="address-box">
+        Constantin Mühlstein<br>
+        Carola-Neher-Str. 10<br>
+        81379 München<br>
+        Email: appstoreappcm@gmail.com
+    </div>
+
+    <h2>2. No data collection or storage on external servers</h2>
+    <p>The App is designed so that no personal data is transmitted to us or to third parties.</p>
+    <ul>
+        <li>We do not operate any servers, databases or cloud services to store your app usage data.</li>
+        <li>No analytics services (such as Google Analytics, Firebase or similar) and no advertising trackers are used.</li>
+        <li>All calculations, timer functions and settings take place exclusively on your device.</li>
+    </ul>
+
+    <h2>3. Apple HealthKit (health data)</h2>
+    <p>The App offers two optional HealthKit features. Both are turned off by default and only become active after you enable them in the App's settings and grant permission in the iOS permission dialog.</p>
+    <ul>
+        <li><strong>Accurate Live Activity:</strong> While a timer is running, the App starts a workout session in Apple Health (HKWorkoutSession). This lets the Live Activity on the Lock Screen and in the Dynamic Island update every second in the background. For this purpose the App requests read access to the data type "Workouts". The App does not read any other health data.</li>
+        <li><strong>Save workouts to Health:</strong> If you turn on "Save workouts to Health", each completed interval workout is saved to Apple Health as a workout of the type "High Intensity Interval Training" (HIIT) with its time range and duration. Cancelled workouts are discarded and not saved. No other values such as heart rate or calories are recorded.</li>
+        <li><strong>Local processing:</strong> All HealthKit data is processed and stored only on your device, in Apple Health or in the App's local sandbox.</li>
+        <li><strong>No disclosure:</strong> HealthKit data is never transmitted to us, the developer, or to any external server.</li>
+        <li><strong>No advertising or profiling:</strong> In line with Apple's requirements, health data is never used for advertising, marketing or commercial profiling.</li>
+        <li><strong>Revoking permission and deleting data:</strong> You can turn off both features in the App's settings at any time. You can revoke HealthKit access at any time in iOS under <em>Settings &gt; Privacy &amp; Security &gt; Health &gt; Intervall Timer</em>, with effect for the future. Workouts already saved can be viewed and deleted in the Health app.</li>
+    </ul>
+
+    <h2>4. Apple App Store and downloads</h2>
+    <p>When you download the App from the Apple App Store, personal data (such as your Apple ID, IP address and the time of download) is processed by Apple Inc. (One Apple Park Way, Cupertino, CA 95014, USA). As the developer we have no influence on this data collection; Apple's privacy policy applies.</p>
+
+    <h2>5. Your rights</h2>
+    <p>Since we do not store any personal data, we generally cannot access, correct or delete your data, as it is physically stored only on your own device. You have the right to lodge a complaint with a data protection supervisory authority if you believe that the processing of your data violates the GDPR.</p>
+
+    <h2>6. Changes to this privacy policy</h2>
+    <p>We reserve the right to update this privacy policy if legal requirements or features of the App change. The current version is always available via the link provided in the App Store.</p>
+    </section>
+
+    <hr>
+
+    <section id="de" lang="de">
+    <div class="date">Stand: 19.11.2026</div>
     <h1>Datenschutzerklärung</h1>
 
     <p>Der Schutz deiner persönlichen Daten ist uns ein wichtiges Anliegen. Nachfolgend informieren wir dich darüber, wie deine Daten bei der Nutzung unserer iOS-App „Intervall Timer" (nachfolgend „App") verarbeitet werden.</p>
@@ -46,13 +98,15 @@
         <li>Alle Berechnungen, Timer-Funktionen und Einstellungen finden ausschließlich lokal auf deinem Endgerät statt.</li>
     </ul>
 
-    <h2>3. Zugriff auf Apple HealthKit (Gesundheitsdaten)</h2>
-    <p>Die App benötigt optional Zugriff auf die HealthKit-Schnittstelle von Apple (Kategorien: Aktivität und Training), um deine aktuellen Trainingswerte in Echtzeit anzuzeigen (z. B. als Live-Aktivität auf dem Sperrbildschirm).</p>
+    <h2>3. Apple HealthKit (Gesundheitsdaten)</h2>
+    <p>Die App bietet zwei optionale HealthKit-Funktionen. Beide sind standardmäßig ausgeschaltet und werden erst aktiv, wenn du sie in den Einstellungen der App einschaltest und die Berechtigung im iOS-Dialog erteilst.</p>
     <ul>
-        <li><strong>Lokale Verarbeitung:</strong> Alle über HealthKit ausgelesenen Daten werden ausschließlich lokal auf deinem Gerät im Arbeitsspeicher oder der lokalen App-Sandbox verarbeitet.</li>
+        <li><strong>Sekundengenaue Live-Aktivität:</strong> Während ein Timer läuft, startet die App eine Trainingssitzung in Apple Health (HKWorkoutSession). Dadurch kann die Live-Aktivität auf dem Sperrbildschirm und in der Dynamic Island auch im Hintergrund jede Sekunde aktualisiert werden. Dafür fragt die App Lesezugriff auf den Datentyp „Trainings" an. Andere Gesundheitsdaten liest die App nicht.</li>
+        <li><strong>Workouts in Health speichern:</strong> Wenn du „Workouts in Health speichern" einschaltest, wird jedes abgeschlossene Intervalltraining als Training vom Typ „Hochintensives Intervalltraining" (HIIT) mit Zeitraum und Dauer in Apple Health gespeichert. Abgebrochene Trainings werden verworfen und nicht gespeichert. Weitere Werte wie Herzfrequenz oder Kalorien werden nicht erfasst.</li>
+        <li><strong>Lokale Verarbeitung:</strong> Alle HealthKit-Daten werden ausschließlich lokal auf deinem Gerät verarbeitet und gespeichert, in Apple Health oder in der lokalen App-Sandbox.</li>
         <li><strong>Keine Weitergabe:</strong> HealthKit-Daten werden zu keinem Zeitpunkt an uns, den Entwickler, oder an andere externe Server übertragen.</li>
-        <li><strong>Keine Werbung &amp; kein Profiling:</strong> Gemäß den strengen Vorgaben von Apple werden Gesundheitsdaten niemals für Werbezwecke, Marketing oder kommerzielles Profiling verwendet.</li>
-        <li><strong>Widerruf der Berechtigung:</strong> Du kannst den Zugriff auf deine HealthKit-Daten jederzeit in den iOS-Einstellungen unter <em>Datenschutz &amp; Sicherheit &gt; Health &gt; Intervall Timer</em> mit Wirkung für die Zukunft widerrufen.</li>
+        <li><strong>Keine Werbung &amp; kein Profiling:</strong> Gemäß den Vorgaben von Apple werden Gesundheitsdaten niemals für Werbezwecke, Marketing oder kommerzielles Profiling verwendet.</li>
+        <li><strong>Widerruf und Löschung:</strong> Du kannst beide Funktionen jederzeit in den Einstellungen der App ausschalten. Den Zugriff auf HealthKit kannst du jederzeit in den iOS-Einstellungen unter <em>Datenschutz &amp; Sicherheit &gt; Health &gt; Intervall Timer</em> mit Wirkung für die Zukunft widerrufen. Bereits gespeicherte Trainings kannst du in der Health-App einsehen und löschen.</li>
     </ul>
 
     <h2>4. Apple App Store und Downloads</h2>
@@ -63,6 +117,7 @@
 
     <h2>6. Änderungen dieser Datenschutzerklärung</h2>
     <p>Wir behalten uns vor, diese Datenschutzerklärung anzupassen, falls sich rechtliche Vorgaben oder Funktionen der App ändern sollten. Die jeweils aktuelle Version ist stets über den von uns im App Store hinterlegten Link abrufbar.</p>
+    </section>
 
 </body>
 </html>
